@@ -59,6 +59,9 @@ def dennis_ritchies_language
     
   
   lang = programmer_hash[:dennis_ritchie][:languages]
+  for x in lang
+    return x 
+  end
   
   
 

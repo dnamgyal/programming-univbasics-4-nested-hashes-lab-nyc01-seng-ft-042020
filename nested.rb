@@ -58,7 +58,7 @@ def dennis_ritchies_language
     }
     
   
-  lang = cleanup(programmer_hash[:dennis_ritchie][:known_for][:languages][0])
+  lang = programmer_hash[:dennis_ritchie][:languages]
   
   
 
